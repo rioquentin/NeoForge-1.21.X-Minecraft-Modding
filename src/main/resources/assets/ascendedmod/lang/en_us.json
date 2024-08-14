@@ -5,6 +5,9 @@
   "block.ascendedmod.onyx_ore": "Onyx Ore",
   "block.ascendedmod.onyx_block": "Onyx Block",
   "block.ascendedmod.ember_ore": "Ember Ore",
+  "block.ascendedmod.ember_block": "Ember Block",
+
+  "item.ascendedmod.metal_detector": "Metal Detector",
 
   "creativetab.ascended_tab": "Ascended Mod"
 }

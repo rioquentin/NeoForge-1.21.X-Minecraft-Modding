@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ascendedmod:onyx_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ascendedmod:onyx"
+  }
+}

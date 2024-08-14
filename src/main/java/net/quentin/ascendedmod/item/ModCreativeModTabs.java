@@ -24,10 +24,13 @@ public class ModCreativeModTabs {
                     pOutPut.accept(ModItems.ONYX.get());
                     pOutPut.accept(ModItems.EMBER.get());
 
+                    pOutPut.accept(ModItems.METAL_DETECTOR);
+
                     //Blocks
                     pOutPut.accept(ModBlocks.ONYX_ORE.get());
                     pOutPut.accept(ModBlocks.ONYX_BLOCK.get());
                     pOutPut.accept(ModBlocks.EMBER_ORE.get());
+                    pOutPut.accept(ModBlocks.EMBER_BLOCK.get());
 
                 })
                 .build());

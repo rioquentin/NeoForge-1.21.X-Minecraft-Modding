@@ -3,6 +3,7 @@ package net.quentin.ascendedmod.block;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -18,16 +19,16 @@ public class ModBlocks {
 
     //Custom Blocks
     public static final DeferredBlock<Block> ONYX_ORE = registerBlock("onyx_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)));
 
     public static final DeferredBlock<Block> ONYX_BLOCK = registerBlock("onyx_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_BLOCK)));
 
     public static final DeferredBlock<Block> EMBER_ORE = registerBlock("ember_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BASALT)));
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHER_GOLD_ORE)));
+
+    public static final DeferredBlock<Block> EMBER_BLOCK = registerBlock("ember_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_BLOCK)));
 
     //Base Functions
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
