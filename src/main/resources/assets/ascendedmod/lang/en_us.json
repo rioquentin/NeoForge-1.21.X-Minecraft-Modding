@@ -1,6 +1,4 @@
 {
-  "item.ascendedmod.onyx": "Onyx",
-  "item.ascendedmod.ember": "Ember",
   "item.ascendedmod.raw_tin": "Raw Tin",
   "item.ascendedmod.tin_ingot": "Tin Ingot",
   "item.ascendedmod.raw_zinc": "Raw Zinc",
@@ -12,6 +10,18 @@
   "item.ascendedmod.silver_ingot": "Silver Ingot",
   "item.ascendedmod.raw_nickel": "Raw Nickel",
   "item.ascendedmod.nickel_ingot": "Nickel Ingot",
+  "item.ascendedmod.bronze_ingot": "Bronze Ingot",
+  "item.ascendedmod.emberstone": "Emberstone",
+  "item.ascendedmod.carmot_gem": "Carmot Gem",
+  "item.ascendedmod.electrum_ingot": "Electrum Ingot",
+  "item.ascendedmod.raw_platinum": "Raw Platinum",
+  "item.ascendedmod.platinum_ingot": "Platinum Ingot",
+  "item.ascendedmod.raw_tungsten": "Raw Tungsten",
+  "item.ascendedmod.tungsten_ingot": "Tungsten Ingot",
+  "item.ascendedmod.crystal": "Crystal",
+  "item.ascendedmod.soulstone": "Soulstone",
+  "item.ascendedmod.raw_cobalt": "Raw Cobalt",
+  "item.ascendedmod.cobalt_ingot": "Cobalt Ingot",
 
 
   "block.ascendedmod.tin_ore": "Tin Ore",
@@ -24,6 +34,15 @@
   "block.ascendedmod.deepslate_silver_ore": "Deepslate Silver Ore",
   "block.ascendedmod.nickel_ore": "Nickel Ore",
   "block.ascendedmod.deepslate_nickel_ore": "Deepslate Nickel Ore",
+  "block.ascendedmod.nether_emberstone_ore": "Nether Emberstone Ore",
+  "block.ascendedmod.nether_carmot_ore": "Nether Carmot Ore",
+  "block.ascendedmod.deepslate_platinum_ore": "Deepslate Platinum Ore",
+  "block.ascendedmod.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
+  "block.ascendedmod.end_stone_crystal_ore": "End Stone Crystal Ore",
+  "block.ascendedmod.nether_soulstone_ore": "Nether Soulstone Ore",
+  "block.ascendedmod.nether_cobalt_ore": "Nether Cobalt Ore",
+
+
 
 
   "item.ascendedmod.metal_detector": "Metal Detector",

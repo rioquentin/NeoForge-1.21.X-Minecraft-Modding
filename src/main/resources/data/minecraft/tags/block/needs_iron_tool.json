@@ -4,6 +4,14 @@
     "ascendedmod:deepslate_zinc_ore",
     "ascendedmod:deepslate_lead_ore",
     "ascendedmod:deepslate_silver_ore",
-    "ascendedmod:deepslate_nickel_ore"
+    "ascendedmod:deepslate_nickel_ore",
+
+    "ascendedmod:nether_emberstone_ore",
+    "ascendedmod:nether_carmot_ore",
+    "ascendedmod:deepslate_platinum_ore",
+    "ascendedmod:deepslate_tungsten_ore",
+    "ascendedmod:end_stone_crystal_ore",
+    "ascendedmod:nether_soulstone_ore",
+    "ascendedmod:nether_cobalt_ore"
   ]
 }

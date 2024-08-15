@@ -42,6 +42,42 @@ public class ModItems {
     public static final DeferredItem<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
             () -> new MetalDetectorItem(new Item.Properties()));
 
+    public static final DeferredItem<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
+            () -> new MetalDetectorItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> EMBERSTONE = ITEMS.register("emberstone",
+            () -> new MetalDetectorItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> CARMOT_GEM = ITEMS.register("carmot_gem",
+            () -> new MetalDetectorItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
+            () -> new MetalDetectorItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
+            () -> new MetalDetectorItem(new Item.Properties()));
+    public static final DeferredItem<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
+            () -> new MetalDetectorItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> RAW_TUNGSTEN = ITEMS.register("raw_tungsten",
+            () -> new MetalDetectorItem(new Item.Properties()));
+    public static final DeferredItem<Item> TUNGSTEN_INGOT = ITEMS.register("tungsten_ingot",
+            () -> new MetalDetectorItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> CRYSTAL = ITEMS.register("crystal",
+            () -> new MetalDetectorItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> SOULSTONE_GEM = ITEMS.register("soulstone",
+            () -> new MetalDetectorItem(new Item.Properties()));
+
+    public static final DeferredItem<Item> RAW_COBALT = ITEMS.register("raw_cobalt",
+            () -> new MetalDetectorItem(new Item.Properties()));
+    public static final DeferredItem<Item> COBALT_INGOT = ITEMS.register("cobalt_ingot",
+            () -> new MetalDetectorItem(new Item.Properties()));
+
+
+
+
     //Base Function
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

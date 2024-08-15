@@ -44,6 +44,27 @@ public class ModBlocks {
     public static final DeferredBlock<Block> DEEPSLATE_NICKEL_ORE = registerBlock("deepslate_nickel_ore",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)));
 
+    public static final DeferredBlock<Block> NETHER_EMBERSTONE_ORE = registerBlock("nether_emberstone_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHER_QUARTZ_ORE)));
+
+    public static final DeferredBlock<Block> NETHER_CARMOT_ORE = registerBlock("nether_carmot_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHER_QUARTZ_ORE)));
+
+    public static final DeferredBlock<Block> DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_DIAMOND_ORE)));
+
+    public static final DeferredBlock<Block> DEEPSLATE_TUNGSTEN_ORE = registerBlock("deepslate_tungsten_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_DIAMOND_ORE)));
+
+    public static final DeferredBlock<Block> END_STONE_CRYSTAL_ORE = registerBlock("end_stone_crystal_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE)));
+
+    public static final DeferredBlock<Block> NETHER_SOULSTONE_ORE = registerBlock("nether_soulstone_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHER_GOLD_ORE)));
+
+    public static final DeferredBlock<Block> NETHER_COBALT_ORE = registerBlock("nether_cobalt_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.NETHER_GOLD_ORE)));
+
 
     //Base Functions
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
