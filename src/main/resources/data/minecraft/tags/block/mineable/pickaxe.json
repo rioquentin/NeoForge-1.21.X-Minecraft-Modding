@@ -1,8 +1,14 @@
 {
   "values": [
-    "ascendedmod:onyx_ore",
-    "ascendedmod:onyx_block",
-    "ascendedmod:ember_ore",
-    "ascendedmod:ember_block"
+    "ascendedmod:tin_ore",
+    "ascendedmod:deepslate_tin_ore",
+    "ascendedmod:zinc_ore",
+    "ascendedmod:deepslate_zinc_ore",
+    "ascendedmod:lead_ore",
+    "ascendedmod:deepslate_lead_ore",
+    "ascendedmod:silver_ore",
+    "ascendedmod:deepslate_silver_ore",
+    "ascendedmod:nickel_ore",
+    "ascendedmod:deepslate_nickel_ore"
   ]
 }

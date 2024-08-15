@@ -16,21 +16,38 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AscendedMod.MOD_ID);
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ASCENDED_TAB = CREATIVE_MOD_TABS.register("ascended_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ONYX.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BRASS_INGOT.get()))
                 .title(Component.translatable("creativetab.ascended_tab"))
                 .displayItems((pParameters, pOutPut) -> {
 
                     //Items
-                    pOutPut.accept(ModItems.ONYX.get());
-                    pOutPut.accept(ModItems.EMBER.get());
+                    pOutPut.accept(ModItems.RAW_TIN.get());
+                    pOutPut.accept(ModItems.TIN_INGOT.get());
+                    pOutPut.accept(ModItems.RAW_ZINC.get());
+                    pOutPut.accept(ModItems.ZINC_INGOT.get());
+                    pOutPut.accept(ModItems.RAW_LEAD.get());
+                    pOutPut.accept(ModItems.LEAD_INGOT.get());
+                    pOutPut.accept(ModItems.RAW_SILVER.get());
+                    pOutPut.accept(ModItems.SILVER_INGOT.get());
+                    pOutPut.accept(ModItems.RAW_NICKEL.get());
+                    pOutPut.accept(ModItems.NICKEL_INGOT.get());
+
+                    pOutPut.accept(ModItems.BRASS_INGOT.get());
+
 
                     pOutPut.accept(ModItems.METAL_DETECTOR);
 
                     //Blocks
-                    pOutPut.accept(ModBlocks.ONYX_ORE.get());
-                    pOutPut.accept(ModBlocks.ONYX_BLOCK.get());
-                    pOutPut.accept(ModBlocks.EMBER_ORE.get());
-                    pOutPut.accept(ModBlocks.EMBER_BLOCK.get());
+                    pOutPut.accept(ModBlocks.TIN_ORE.get());
+                    pOutPut.accept(ModBlocks.DEEPSLATE_TIN_ORE.get());
+                    pOutPut.accept(ModBlocks.ZINC_ORE.get());
+                    pOutPut.accept(ModBlocks.DEEPSLATE_ZINC_ORE.get());
+                    pOutPut.accept(ModBlocks.LEAD_ORE.get());
+                    pOutPut.accept(ModBlocks.DEEPSLATE_LEAD_ORE.get());
+                    pOutPut.accept(ModBlocks.SILVER_ORE.get());
+                    pOutPut.accept(ModBlocks.DEEPSLATE_SILVER_ORE.get());
+                    pOutPut.accept(ModBlocks.NICKEL_ORE.get());
+                    pOutPut.accept(ModBlocks.DEEPSLATE_NICKEL_ORE.get());
 
                 })
                 .build());

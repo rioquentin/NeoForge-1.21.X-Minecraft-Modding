@@ -1,5 +1,9 @@
 {
   "values": [
-
+    "ascendedmod:tin_ore",
+    "ascendedmod:zinc_ore",
+    "ascendedmod:lead_ore",
+    "ascendedmod:silver_ore",
+    "ascendedmod:nickel_ore"
   ]
 }

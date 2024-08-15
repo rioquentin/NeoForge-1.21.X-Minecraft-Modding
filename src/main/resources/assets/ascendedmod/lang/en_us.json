@@ -1,11 +1,30 @@
 {
   "item.ascendedmod.onyx": "Onyx",
   "item.ascendedmod.ember": "Ember",
+  "item.ascendedmod.raw_tin": "Raw Tin",
+  "item.ascendedmod.tin_ingot": "Tin Ingot",
+  "item.ascendedmod.raw_zinc": "Raw Zinc",
+  "item.ascendedmod.zinc_ingot": "Zinc Ingot",
+  "item.ascendedmod.brass_ingot": "Brass Ingot",
+  "item.ascendedmod.raw_lead": "Raw Lead",
+  "item.ascendedmod.lead_ingot": "Lead Ingot",
+  "item.ascendedmod.raw_silver": "Raw Silver",
+  "item.ascendedmod.silver_ingot": "Silver Ingot",
+  "item.ascendedmod.raw_nickel": "Raw Nickel",
+  "item.ascendedmod.nickel_ingot": "Nickel Ingot",
 
-  "block.ascendedmod.onyx_ore": "Onyx Ore",
-  "block.ascendedmod.onyx_block": "Onyx Block",
-  "block.ascendedmod.ember_ore": "Ember Ore",
-  "block.ascendedmod.ember_block": "Ember Block",
+
+  "block.ascendedmod.tin_ore": "Tin Ore",
+  "block.ascendedmod.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.ascendedmod.zinc_ore": "Zinc Ore",
+  "block.ascendedmod.deepslate_zinc_ore": "Deepslate Zinc Ore",
+  "block.ascendedmod.lead_ore": "Lead Ore",
+  "block.ascendedmod.deepslate_lead_ore": "Deepslate Lead Ore",
+  "block.ascendedmod.silver_ore": "Silver Ore",
+  "block.ascendedmod.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.ascendedmod.nickel_ore": "Nickel Ore",
+  "block.ascendedmod.deepslate_nickel_ore": "Deepslate Nickel Ore",
+
 
   "item.ascendedmod.metal_detector": "Metal Detector",
 

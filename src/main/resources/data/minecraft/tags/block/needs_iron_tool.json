@@ -1,5 +1,9 @@
 {
   "values": [
-
+    "ascendedmod:deepslate_tin_ore",
+    "ascendedmod:deepslate_zinc_ore",
+    "ascendedmod:deepslate_lead_ore",
+    "ascendedmod:deepslate_silver_ore",
+    "ascendedmod:deepslate_nickel_ore"
   ]
 }
